@@ -1,2 +1,2 @@
 # bas
-Peralatan Kalkulasi Sederhana dan Jadwal
+Hanya script Peralatan Kalkulasi Sederhana dan Jadwal format csv
