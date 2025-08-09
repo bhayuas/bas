@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kumpulan File Kerja</title>
+    <!-- Materialize CSS -->
+    <link rel="stylesheet" href="materialize.css">
+    <!-- Material Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    <h3 class="center-align">Kumpulan File Kerja</h3>
+    <div class="section">
+        <p class="flow-text">
+            Ini adalah kumpulan file kerja yang dapat diakses melalui Box. Silakan scan kode QR atau klik tautan di bawah.
+        </p>
+    </div>
+
+    <div class="row">
+        <div class="col s8">
+            <img class="materialboxed" src="TOS_Box_QR.png" alt="QR Code" width="100%">
+        </div>
+        <div class="col s4">
+            <a href="https://app.box.com/s/78ud7411obz46hhi61a759m9ed0ctdn0" target="_blank">Buka Link Box <i class="material-icons right">open_in_new</i></a>
+            <p>https://app.box.com/s/78ud7411obz46hhi61a759m9ed0ctdn0</p>
+        </div>
+    </div>
+
+    <iframe style="width: 100%;min-height: 720px;" src="https://app.box.com/s/78ud7411obz46hhi61a759m9ed0ctdn0" frameborder="0" allowfullscreen></iframe>
+
+    <!-- Materialize JS -->
+    <script src="materialize.js"></script>
+    <!-- Initialize Materialize components -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            var elems = document.querySelectorAll('.materialboxed');
+            var instances = M.Materialbox.init(elems);
+        });
+    </script>
+</body>
+</html>
