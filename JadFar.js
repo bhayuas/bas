@@ -8,7 +8,7 @@ let date = new Date();
 let currentMonth = date.getMonth();
 let currentYear = date.getFullYear();
 // Variabel global untuk menyimpan index minggu carryover
-let currentWeekIndex = 4; // Bisa diubah sesuai kebutuhan, 1 untuk M1, 2 untuk M2, ..., 5 untuk M5
+let currentWeekIndex = 4;
 
 const scheduleData = [
   // Header: [Label Minggu, Senin, Selasa, Rabu, Kamis, Jum'at, Sabtu]
